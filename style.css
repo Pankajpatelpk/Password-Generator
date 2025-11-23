@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #3f51b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.output-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#password {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 5px 0 0 5px;
+}
+
+#copyBtn {
+    width: 20%;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.options {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+}
+
+.generate {
+    width: 100%;
+    padding: 10px;
+    background: #ff5722;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
